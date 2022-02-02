@@ -186,9 +186,7 @@
         border: 0;
         outline: 0;
         color: #050505;
-        width: 4rem;
-        margin-left: 143px;
-        margin-right: 0px;
+        width: 5rem;
     }
 
     .navbar-toggler:focus {
@@ -234,7 +232,7 @@
 
     .navbar-nav {
         margin: 20px -15px 30px;
-        justify-content: flex-start;
+        flex-direction: column;
     }
 
     .navbar-fixed-top #navigation {

@@ -7248,17 +7248,3 @@ ul ul .sf-with-ul:after {
     margin-right: -15px;
     margin-left: -15px;
 }
-
-.center2 {
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-content: center;
-    position: relative;
-}
-
-.col-12 {
-    flex: 0 0 100%;
-    position: relative;
-    width: 100%;
-}

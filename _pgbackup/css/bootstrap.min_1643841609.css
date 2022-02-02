@@ -2074,7 +2074,6 @@ pre code {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    width: 100%;
 }
 
 .col-xs-1,
@@ -2546,11 +2545,7 @@ pre code {
     }
 
     .col-md-9 {
-        width: 100%;
-        padding-left: 7rem;
-        padding-right: 7rem;
-        padding-bottom: 0px;
-        margin-bottom: -79px;
+        width: 75%;
     }
 
     .col-md-8 {
@@ -8280,5 +8275,112 @@ button.close {
 @media print{
     .hidden-print {
         display: none!important;
+    }
+}
+
+
+.title_up {
+}
+
+.title_down {
+    color: #5c7190;
+}
+
+.about-content {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.content {
+    margin-top: 32px;
+    font-family: Inter;
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 21.78px;
+    font-weight: 500;
+}
+
+.title {
+    margin-top: 61px;
+    font-family: Inter;
+    font-size: 1.7rem;
+    font-weight: 900;
+    line-height: 39px;
+    text-align: center;
+    color: #5c7190;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.image-container {
+    padding-left: 20px;
+    padding-right: 0!important;
+}
+
+.image {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 50px auto 10px 0;
+    max-width: 415px;
+    float: right;
+}
+
+.lottie {
+    position: absolute;
+    left: -25px;
+    top: -94px;
+    margin: unset;
+    max-width: 59%;
+    height: auto;
+    text-align: left;
+    z-index: 2;
+}
+
+@media screen and (max-width:575px) {
+    .imghero {
+        width: 11rem;
+        vertical-align: middle;
+    }
+
+    .col-md-6 {
+    }
+
+    .image {
+        width: 18rem;
+        display: block;
+    }
+}
+
+.col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+@media screen and (max-width:767px) {
+    .onboarding {
+        display: flex;
+        padding: 31px 8px 20px;
+        margin: 0;
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .onboarding-item {
+        margin-top: 28px;
+        margin-bottom: 63px;
+    }
+
+    .titlehero {
+        position: relative;
     }
 }
