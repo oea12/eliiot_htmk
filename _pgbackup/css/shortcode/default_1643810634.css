@@ -284,7 +284,7 @@ input {
     align-items: flex-start;
     padding: 10px 16px 10px 24px;
     overflow: visible;
-    width: 42%;
+    width: 50%;
 }
 
 select {

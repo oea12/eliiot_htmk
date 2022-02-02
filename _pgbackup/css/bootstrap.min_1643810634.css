@@ -715,10 +715,12 @@ progress {
 }
 
 .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    flex-wrap: wrap;
 }
 
 .row>* {
@@ -1246,10 +1248,8 @@ progress {
     }
 
     .col-md-9 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 75%;
-        flex: 0 0 75%;
-        max-width: 75%;
+        flex: 0 0 auto;
+        width: 75%;
     }
 
     .col-md-10 {

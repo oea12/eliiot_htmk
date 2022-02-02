@@ -9,7 +9,7 @@
 }
 
 .owl-carousel {
-    display: flex;
+    display: none;
     width: 57rem;
     z-index: 1;
     cursor: grab;
