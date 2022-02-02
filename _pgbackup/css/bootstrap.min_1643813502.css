@@ -7536,7 +7536,7 @@ fieldset:disabled .btn {
 }
 
 .overflow-hidden {
-    overflow: hidden;
+    overflow: hidden!important;
 }
 
 .overflow-visible {

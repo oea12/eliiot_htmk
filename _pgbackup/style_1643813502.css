@@ -6727,10 +6727,6 @@ input[type="search"],
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
-
-.land {
-    overflow: auto;
-}
 }
 }
 }
