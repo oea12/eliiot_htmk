@@ -6121,15 +6121,17 @@ table.shopping-cart-table tr td {
 
 .testimonial-3 p {
     margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 34px;
+    line-height: 52px;
+    font-weight: 100;
     font-style: normal;
 }
 
 .testimonial-3 {
-    padding: 10px 20px 56px;
+    padding: 10px 20px;
+    margin: 25px 0 15px 0px;
     border-left: none;
-    margin-top: 25px;
-    margin-left: 0px;
-    margin-right: 0;
 }
 
 .testimonial-3:before {
@@ -7947,11 +7949,6 @@ select.input-border {
 .font-white,
 .font-white a {
     color: #fff !important;
-    font-family: 'Inter', sans-serif;
-    font-size: 2.5rem;
-    line-height: 3rem;
-    font-weight: 500;
-    letter-spacing: 1px;
 }
 
 .font-black,
@@ -12552,7 +12549,7 @@ a:focus {
 }
 
 .pb-130 {
-    padding-bottom: 85px;
+    padding-bottom: 130px;
 }
 
 .pb-140 {
@@ -17055,7 +17052,6 @@ h2.portfolio-timeline-title {
     /* bottom: 0; */
     left: 0;
     text-align: center;
-    margin-top: -50px;
 }
 
 .owl-pag-2 .owl-pagination {
@@ -21711,15 +21707,15 @@ align-content: {
 
 .testimonial-item-icon {
     text-align: right;
-    position: relative;
-    right: -146px;
+    position: absolute;
+    right: 0;
     bottom: 25%;
     height: 50.72px;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     max-width: 1024px;
-    width: 8%;
-    margin: -15% 10% 10% 69%;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .content2 {
@@ -26382,26 +26378,6 @@ input[type="search"],
     .titlehero {
         position: relative;
     }
-}
-
-.navbar-expand-md {
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ffffff 0%, #ffffff 100%) repeat scroll 0 0;
-    box-shadow: 0 0 20px -10px #000;
-    padding: 20px 14px 14px;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    border-width: 0 0 1px;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-.font-white2 {
-    color: #ffffff;
-    font-weight: 300;
-    letter-spacing: 11px;
-    font-size: 28px;
 }
 
 }
