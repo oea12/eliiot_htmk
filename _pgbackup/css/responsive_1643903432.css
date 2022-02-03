@@ -162,6 +162,7 @@
 
     .navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand {
+        margin-left: 15px;
     }
 
     .navbar .container {
@@ -178,7 +179,6 @@
         justify-content: space-between;
         width: 100%;
         flex-direction: row-reverse;
-        margin-top: 10px;
     }
 
     .navbar-toggler {
@@ -187,8 +187,8 @@
         outline: 0;
         color: #050505;
         width: 4rem;
+        margin-left: 143px;
         margin-right: 0px;
-        margin-left: 50%;
     }
 
     .navbar-toggler:focus {
@@ -206,7 +206,6 @@
 
     .navbar-brand {
         padding: 15px 0;
-        margin-right: -56px;
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -234,8 +233,8 @@
     }
 
     .navbar-nav {
-        margin: 20px 0px 30px;
-        justify-content: center;
+        margin: 20px -15px 30px;
+        justify-content: flex-start;
     }
 
     .navbar-fixed-top #navigation {
@@ -243,8 +242,8 @@
     }
 
     .navbar-nav li a {
-        font-size: 100%;
-        padding: 0px;
+        font-size: 16px;
+        padding: 8px 20px;
         text-align: center;
     }
 
@@ -253,7 +252,7 @@
     }
 
     .navbar-nav li a {
-        display: inline-flex;
+        display: inline-block;
     }
 
     .navbar-collapse.in {

@@ -6125,15 +6125,11 @@ table.shopping-cart-table tr td {
 }
 
 .testimonial-3 {
-    padding: 10px 20px 34px;
+    padding: 10px 20px 56px;
     border-left: none;
     margin-top: 25px;
     margin-left: 0px;
     margin-right: 0;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-content: center;
 }
 
 .testimonial-3:before {
@@ -7951,10 +7947,10 @@ select.input-border {
 .font-white a {
     color: #fff !important;
     font-family: 'Inter', sans-serif;
-    line-height: 117%;
+    font-size: 2.5rem;
+    line-height: 3rem;
     font-weight: 500;
     letter-spacing: 1px;
-    font-size: 188%;
 }
 
 .font-black,
@@ -15524,7 +15520,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-xs,
-      th.visible-xs {
+  th.visible-xs {
         display: table-cell!important;
     }
 
@@ -15555,7 +15551,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-sm,
-      th.visible-sm {
+  th.visible-sm {
         display: table-cell!important;
     }
 
@@ -15586,7 +15582,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-md,
-      th.visible-md {
+  th.visible-md {
         display: table-cell!important;
     }
 
@@ -15617,7 +15613,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-lg,
-      th.visible-lg {
+  th.visible-lg {
         display: table-cell!important;
     }
 
@@ -15674,7 +15670,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-print,
-      th.visible-print {
+  th.visible-print {
         display: table-cell!important;
     }
 }
@@ -16095,8 +16091,8 @@ h2.portfolio-timeline-title {
     }
 
     #main-menu .sub,
-      #main-menu .parent  .sub ,
-      #main-menu .parent:hover  .sub {
+  #main-menu .parent  .sub ,
+  #main-menu .parent:hover  .sub {
         display: none;
         position: relative;
         margin: 0;
@@ -16108,8 +16104,8 @@ h2.portfolio-timeline-title {
     }
 
     .sub-menu-white #main-menu .sub,
-      .sub-menu-white #main-menu .parent  .sub ,
-      .sub-menu-white #main-menu .parent:hover .sub {
+  .sub-menu-white #main-menu .parent  .sub ,
+  .sub-menu-white #main-menu .parent:hover .sub {
         background: #f0f0f0;
     }
 
@@ -16142,7 +16138,7 @@ h2.portfolio-timeline-title {
     }
 
     #main-menu .navbar .nav > .parent.active > a,
-      #main-menu .navbar .nav > .parent.active:hover > a {
+  #main-menu .navbar .nav > .parent.active:hover > a {
         background: transparent;
     }
 
@@ -16246,6 +16242,7 @@ h2.portfolio-timeline-title {
     }
 
     .navbar-nav>li {
+        float: none;
     }
 }
 
@@ -16996,7 +16993,6 @@ h2.portfolio-timeline-title {
 .owl-prev .icon,
 .owl-next .icon {
     position: relative;
-    color: #fec95d;
 }
 
 .owl-prev:hover,
@@ -19099,7 +19095,7 @@ ul#flickr-sfeeds li a img {
     }
 
     .top-bar-section li,
-      .top-bar-section li:last-child {
+  .top-bar-section li:last-child {
         float: none;
         border: none;
         display: inline-block;
@@ -19114,7 +19110,7 @@ ul#flickr-sfeeds li a img {
     }
 
     .top-links li a:hover,
-      .top-bar.dark .top-links li a:hover {
+  .top-bar.dark .top-links li a:hover {
         background: none;
     }
 
@@ -19692,6 +19688,7 @@ header {
 .navbar-expand-md .navbar-nav li a.download-btn {
     padding-bottom: 0;
     margin-top: 0;
+    margin-left: 72px;
     background-color: #ffc95c;
     border-radius: 20px 20px 20px 4px;
     padding: 11.5px 24px;
@@ -21124,8 +21121,6 @@ header {
     overflow: hidden;
     max-width: 1024px;
     margin: auto;
-    padding-right: 30px;
-    padding-left: 30px;
 
     .content {
         display: -webkit-box;
@@ -21267,9 +21262,6 @@ header {
 
 .resume {
     display: block;
-    padding-left: 95px;
-    padding-right: 95px;
-    margin-top: -37px;
 
     .content {
         padding-top: 75px;
@@ -21598,10 +21590,9 @@ header {
     background-color: #f9fafb;
     padding: 0 16px 16px;
     display: inline;
+    margin: 0;
     background-position: center center;
     position: relative;
-    justify-content: center;
-    align-items: center;
 }
 
 .validate {
@@ -21630,10 +21621,12 @@ align-content: {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 0 24px;
+    padding: 0 24px 0 16px;
+    width: 9rem;
     background: #ffc95c;
     font-family: Inter;
-    font-size: 69%;
+    font-size: 0.8rem;
+    line-height: 19.36px;
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
@@ -21648,9 +21641,6 @@ align-content: {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0px;
-    justify-content: center;
-    line-height: 98%;
-    width: 25%;
 }
 
 .heycc {
@@ -21732,7 +21722,9 @@ align-content: {
 }
 
 .content2 {
-    display: inline-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -21743,26 +21735,21 @@ align-content: {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
-    flex-wrap: wrap;
-    align-content: flex-start;
 }
 
 .known-image {
     padding: 0;
     max-width: 517px;
-    width: 84%;
+    width: 50%;
     padding-bottom: 57px;
 }
 
 .knowimg {
+    vertical-align: middle;
     border-style: none;
     width: 100%;
-    min-width: 298px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-content: center;
 }
+
 
 .known-content {
     padding: 0;
@@ -21876,10 +21863,6 @@ align-content: {
 }
 
 .agile__slides--cloned {
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-content: flex-start;
 }
 
 .slide {
@@ -21902,16 +21885,12 @@ align-content: {
     flex-grow: 1;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-content: center;
-    width: 100%;
 }
 
 .answer {
+    width: 80%;
     background-color: #fff;
-    display: inline-flex;
+    display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -21927,23 +21906,21 @@ align-content: {
 
 .answer-content {
     padding: 0;
+    margin-right: 0px;
     display: block;
     position: relative;
-    width: 100%;
-    margin-left: 33px;
 }
 
 .answer-image {
     padding: 0;
+    max-width: 320px;
     max-height: 320px;
-    width: 36%;
-    min-width: 176px;
-    margin-left: 27px;
+    width: 100%;
 }
 
 .answer-content-title {
     font-family: filson-soft;
-    font-size: 140%;
+    font-size: 26px;
     font-weight: 400;
     line-height: 26px;
     text-align: left;
@@ -21953,7 +21930,7 @@ align-content: {
 .answer-content-text {
     margin-top: 16px;
     font-family: Inter;
-    font-size: 100%;
+    font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
@@ -22073,7 +22050,6 @@ align-content: {
     max-width: 320px;
     text-align: right;
     padding: 0;
-    min-width: 155px;
 }
 
 .resume-item-content {
@@ -22127,11 +22103,11 @@ align-content: {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
+    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
 }
 
 .contentfoot2 {
@@ -22143,11 +22119,11 @@ align-content: {
     display: inline-flex;
     width: 14rem;
     height: 100%;
-    min-width: 10rem;
 }
 
 .faqButton {
-    padding: 32px 0 32px 91px;
+    padding-left: 10px;
+    padding: 32px 0 32px 99px;
     cursor: pointer;
     display: flex;
     width: 19rem;
@@ -24829,12 +24805,9 @@ input[type="reset"] {
 /* ----- 15 Forms ----- */
 /* ---------------------------------------- */
 form {
+    margin: 0;
     padding: 0;
     z-index: 0;
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
 }
 
 form p {
@@ -24871,12 +24844,12 @@ input[type="tel"],
 input[type="search"] {
     position: relative;
     display: block;
-    width: 71%;
+    width: 43%;
     padding: 15px 20px;
     margin: 0 3px 18px 0;
     border-width: 1px;
     border-style: solid;
-    font-size: 100%;
+    font-size: 17px;
     font-weight: normal;
     line-height: 25px !important;
     vertical-align: top;
@@ -26423,21 +26396,6 @@ input[type="search"],
     font-weight: 300;
     letter-spacing: 11px;
     font-size: 28px;
-}
-
-@media screen and (max-width:639px) {
-    .knowimg {
-    }
-}
-
-.agile__slide--active {
-}
-
-@media screen and (max-width:899px) {
-    .known-image {
-        padding-bottom: 0px;
-        margin-bottom: -44px;
-    }
 }
 
 }
