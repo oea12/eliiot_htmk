@@ -13084,7 +13084,7 @@ a:focus {
     }
 
     .pb-md-80 {
-        padding-bottom: 9px;
+        padding-bottom: 80px;
     }
 
     .pb-md-90 {
@@ -21265,7 +21265,6 @@ header {
 
 .questions {
     display: block;
-    margin-bottom: -76px;
 }
 
 .resume {
@@ -26433,7 +26432,6 @@ input[type="search"],
     font-weight: 300;
     letter-spacing: 11px;
     font-size: 28px;
-    line-height: 56px;
 }
 
 @media screen and (max-width:639px) {
