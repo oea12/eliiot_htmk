@@ -1,0 +1,52 @@
+<div id='faqs'>
+    
+	<section class='caption'>
+
+		<div class='content row'>
+		
+			<div class='caption-content'>
+
+				<div class='caption-content-title'>
+					Una de mis partes favoritas:
+				</div>
+				<br/>
+				<div class='caption-content-subtitle'>
+					<div class='caption-content-subtitle_up'>
+						¿Tienes dudas?
+					</div>
+					<div class='caption-content-subtitle_down'>						
+						¡te las respondo!
+					</div>
+				</div>
+
+			</div>
+
+			<div class='caption-image'>
+				<img src='images/faqs_image.png' />
+			</div>
+			
+		</div>
+
+	</section>
+
+	<section class='faqs'>
+
+		<div class='faq' v-for='( faq, index ) in faqs' :key='index'>
+
+			<button class='faq-toggle collapsed' data-toggle="collapse" :data-target='"#faq" + index' aria-expanded="false" :aria-controls='"faq" + index'>
+				<i class='mdi mdi-plus'></i>
+				<i class='mdi mdi-minus'></i>
+			</button>
+
+			<div class='faq-title'>
+				{{ faq[ 0 ] }}
+			</div>
+
+			<div class='faq-text collapse' :id='"faq" + index' v-html='faq[1]'>
+			</div>
+
+		</div>
+		
+	</section>	
+    
+</div>
