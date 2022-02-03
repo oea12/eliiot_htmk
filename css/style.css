@@ -26704,6 +26704,12 @@ b {
         margin-right: 47px;
     }
 }
+
+@media screen and (max-width:479px) {
+    .image-container {
+        margin-top: 11rem;
+    }
+}
             }
         }
         }
