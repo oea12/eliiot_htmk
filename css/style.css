@@ -21935,7 +21935,7 @@ align-content: {
     padding: 0;
     display: block;
     position: relative;
-    width: 100%;
+    width: 55%;
     margin-left: 33px;
 }
 
@@ -26709,6 +26709,14 @@ b {
     .image-container {
         margin-top: 19rem;
     }
+}
+
+.answer-content2 {
+    padding: 0;
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-left: 33px;
 }
             }
         }
