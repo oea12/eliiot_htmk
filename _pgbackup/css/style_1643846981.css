@@ -7754,9 +7754,10 @@ textarea,
 select,
 .login-select,
 .form-control {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins','Open Sans',Arial, Helvetica, sans-serif;
     border: none;
     border-bottom: 1px solid #ccc;
+    border-radius: 0px;
     background: transparent;
     color: #323336;
     font-size: 14px;
@@ -11192,7 +11193,7 @@ button {
 
     /* font-family: 'Poppins','Open Sans',Arial,Helvetica,sans-serif; */
     font-size: 13px;
-    color: #2b3747;
+    color: #323336;
     border: none;
 
     /* border-radius:2px; */
@@ -11214,7 +11215,7 @@ button {
 }
 
 .button:hover {
-    background-color: #2b3747;
+    background-color: #101010;
     color: #fff;
     transition: all .3s ease 0s;
 }
@@ -19640,7 +19641,7 @@ header {
 }
 
 .navbar-brand {
-    padding: 8px 0;
+    padding: 19px 0;
     display: block;
 }
 
@@ -24860,6 +24861,7 @@ input[type="search"] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    border-radius: 20 20 20 04;
 }
 
 textarea,
