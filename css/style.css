@@ -15520,7 +15520,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-xs,
-      th.visible-xs {
+  th.visible-xs {
         display: table-cell!important;
     }
 
@@ -15551,7 +15551,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-sm,
-      th.visible-sm {
+  th.visible-sm {
         display: table-cell!important;
     }
 
@@ -15582,7 +15582,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-md,
-      th.visible-md {
+  th.visible-md {
         display: table-cell!important;
     }
 
@@ -15613,7 +15613,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-lg,
-      th.visible-lg {
+  th.visible-lg {
         display: table-cell!important;
     }
 
@@ -15670,7 +15670,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-print,
-      th.visible-print {
+  th.visible-print {
         display: table-cell!important;
     }
 }
@@ -16091,8 +16091,8 @@ h2.portfolio-timeline-title {
     }
 
     #main-menu .sub,
-      #main-menu .parent  .sub ,
-      #main-menu .parent:hover  .sub {
+  #main-menu .parent  .sub ,
+  #main-menu .parent:hover  .sub {
         display: none;
         position: relative;
         margin: 0;
@@ -16104,8 +16104,8 @@ h2.portfolio-timeline-title {
     }
 
     .sub-menu-white #main-menu .sub,
-      .sub-menu-white #main-menu .parent  .sub ,
-      .sub-menu-white #main-menu .parent:hover .sub {
+  .sub-menu-white #main-menu .parent  .sub ,
+  .sub-menu-white #main-menu .parent:hover .sub {
         background: #f0f0f0;
     }
 
@@ -16138,7 +16138,7 @@ h2.portfolio-timeline-title {
     }
 
     #main-menu .navbar .nav > .parent.active > a,
-      #main-menu .navbar .nav > .parent.active:hover > a {
+  #main-menu .navbar .nav > .parent.active:hover > a {
         background: transparent;
     }
 
@@ -19095,7 +19095,7 @@ ul#flickr-sfeeds li a img {
     }
 
     .top-bar-section li,
-      .top-bar-section li:last-child {
+  .top-bar-section li:last-child {
         float: none;
         border: none;
         display: inline-block;
@@ -19110,7 +19110,7 @@ ul#flickr-sfeeds li a img {
     }
 
     .top-links li a:hover,
-      .top-bar.dark .top-links li a:hover {
+  .top-bar.dark .top-links li a:hover {
         background: none;
     }
 
@@ -21750,10 +21750,6 @@ align-content: {
     width: 100%;
 }
 
-.mobile {
-    display: none;
-    width: 100%;
-}
 
 .known-content {
     padding: 0;
