@@ -26718,6 +26718,12 @@ b {
     width: 100%;
     margin-left: 33px;
 }
+
+.ok {
+    margin-bottom: 20px;
+    padding-bottom: 43px;
+    padding-top: 33px;
+}
             }
         }
         }
