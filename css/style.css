@@ -21638,7 +21638,7 @@ align-content: {
     padding: 0 24px;
     background: #ffc95c;
     font-family: Inter;
-    font-size: 69%;
+    font-size: 90%;
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
@@ -21654,8 +21654,9 @@ align-content: {
     text-transform: uppercase;
     letter-spacing: 0px;
     justify-content: center;
-    line-height: 98%;
+    line-height: 119%;
     width: 25%;
+    color: #525c62;
 }
 
 .heycc {

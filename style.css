@@ -6445,6 +6445,164 @@ title_up {
 
 .legal {
 }
+#faqs {
+  background-color: ;
+  padding: 0px 16px;
+}
+#faqs .caption {
+  margin-top: 46px;
+}
+#faqs .caption .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#faqs .caption .content .caption-content {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 480px;
+}
+#faqs .caption .content .caption-content .caption-content-title {
+  font-family: 'filson-soft';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: left;
+  color: ;
+}
+#faqs .caption .content .caption-content .caption-content-subtitle {
+  font-family: 'filson-soft';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: left;
+  color: ;
+}
+#faqs .caption .content .caption-content .caption-content-subtitle .caption-content-subtitle_down {
+  color: ;
+}
+#faqs .caption .content .caption-image {
+  padding: 0px;
+  max-width: 336px;
+}
+#faqs .caption .content .caption-image img {
+  width: 100%;
+}
+#faqs .faqs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#faqs .faqs .faq {
+  margin-top: 16px;
+  max-width: 824px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: white;
+  padding: 16px;
+  position: relative;
+}
+#faqs .faqs .faq:first-child {
+  margin-top: 0px;
+}
+#faqs .faqs .faq .faq-title {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  padding-right: 40px;
+  color: ;
+}
+@media (max-width: ) {
+  #faqs .faqs .faq .faq-title {
+    font-size: 16px;
+  }
+}
+#faqs .faqs .faq .faq-text {
+  margin-top: 25px;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #4a4a4a;
+}
+@media (max-width: ) {
+  #faqs .faqs .faq .faq-text {
+    font-size: 16px;
+  }
+}
+
+    .caption {
+        margin-top: 46px;
+}
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+}
+            .caption-content {
+                padding: 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                max-width: 480px;
+}
+                .caption-content-title {
+                    font-family: 'filson-soft';
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 47px;
+                    text-align: left;
+                    color: $textcolor;
+                }
+
+                .caption-content-subtitle {
+                    font-family: 'filson-soft';
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 47px;
+                    text-align: left;
+                    color: $textcolor;
+}
+                    .caption-content-subtitle_down {
+                        color: $primary;
+                    }
+                }
+            }
+
+            .caption-image {
+                padding: 0px;
+                max-width: 336px;
+}
+
+                  }
+                }
+            }
+        }
+            .faq-toggle {
+                border: unset;
+                background-color: unset;
+                color: $primary;
+                position: absolute;
+                top: 7px;
+                right: 16px;
+                font-size: 24px;
+}
+            
+                }
+            }
+
+        }
+    }
+}
 }
 }
 }
