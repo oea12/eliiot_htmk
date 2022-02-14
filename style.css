@@ -6328,6 +6328,20 @@ input.dtr-search-field {
     border-left: none;
 }
 
+.error {
+    clear: both;
+    display: none;
+    color: #e7505a;
+    padding-top: 20px;
+}
+
+.success {
+    clear: both;
+    display: none;
+    color: #96c346;
+    padding-top: 20px;
+}
+
 title_up {
 }
 
@@ -6596,13 +6610,14 @@ title_up {
                 right: 16px;
                 font-size: 24px;
 }
-            
+
                 }
             }
 
         }
     }
 }
+
 }
 }
 }

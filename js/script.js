@@ -63,7 +63,7 @@ function handleSubmitContact (event) {
     let company = document.getElementById('company');
 
 
-    if (/@hotmail.com\s*$/.test(correo.value.toLowerCase()) || /@gmail.com\s*$/.test(correo.value.toLowerCase()) || /@outlook.com\s*$/.test(correo.value.toLowerCase()) || /@yahoo.com\s*$/.test(correo.value.toLowerCase())) {
+    if (/@%%%%%.com\s*$/.test(correo.value.toLowerCase()) || /@%%%%%%.com\s*$/.test(correo.value.toLowerCase()) || /@%%%%%%%.com\s*$/.test(correo.value.toLowerCase()) || /@%%%%%%%%%.com\s*$/.test(correo.value.toLowerCase())) {
         let alertError = document.getElementById('mail_fail_contact');
         alertError.style.display = "block";
         alertError.innerHTML = mensajeValidarMail;
