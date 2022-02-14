@@ -23776,11 +23776,8 @@ input[type="reset"] {
     border-radius: 10px;
     text-decoration: none;
     outline: none;
-    -webkit-backface-visibility: hidden;
     vertical-align: middle;
     text-align: center;
-    font-weight: normal;
-    font-weight: 500;
     font-size: 17px;
     line-height: 24px;
 }

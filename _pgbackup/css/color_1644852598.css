@@ -166,11 +166,9 @@ a:hover {
 /* ---------------------------------------- */
 .dtr-btn,
 input[type="submit"] {
-    background-color: #fdc85e;
-    border-color: #eecc57;
-    color: #42464a;
-    font-weight: 800;
-    font-family: 'Inter', sans-serif;
+    background-color: #3e3c56;
+    border-color: #3e3c56;
+    color: #fff;
 }
 
 .dtr-btn-flat {
@@ -290,7 +288,7 @@ input[type="submit"] {
 .dtr-btn-flat:hover,
 #submit:hover,
 input[type="submit"]:hover {
-    background-color: #5c7190;
+    background-color: #11204d;
     border-color: #11204d;
     color: #fff;
 }
