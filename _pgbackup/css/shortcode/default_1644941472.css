@@ -306,7 +306,7 @@ option {
 
 input:focus {
     background: transparent;
-    border: 2px solid #05c818;
+    border: 2px solid #4FC1F0;
 }
 
 textarea {

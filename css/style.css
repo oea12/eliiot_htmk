@@ -15526,7 +15526,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-xs,
-  th.visible-xs {
+      th.visible-xs {
         display: table-cell!important;
     }
 
@@ -15557,7 +15557,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-sm,
-  th.visible-sm {
+      th.visible-sm {
         display: table-cell!important;
     }
 
@@ -15588,7 +15588,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-md,
-  th.visible-md {
+      th.visible-md {
         display: table-cell!important;
     }
 
@@ -15619,7 +15619,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-lg,
-  th.visible-lg {
+      th.visible-lg {
         display: table-cell!important;
     }
 
@@ -15676,7 +15676,7 @@ h2.portfolio-timeline-title {
     }
 
     td.visible-print,
-  th.visible-print {
+      th.visible-print {
         display: table-cell!important;
     }
 }
@@ -16097,8 +16097,8 @@ h2.portfolio-timeline-title {
     }
 
     #main-menu .sub,
-  #main-menu .parent  .sub ,
-  #main-menu .parent:hover  .sub {
+      #main-menu .parent  .sub ,
+      #main-menu .parent:hover  .sub {
         display: none;
         position: relative;
         margin: 0;
@@ -16110,8 +16110,8 @@ h2.portfolio-timeline-title {
     }
 
     .sub-menu-white #main-menu .sub,
-  .sub-menu-white #main-menu .parent  .sub ,
-  .sub-menu-white #main-menu .parent:hover .sub {
+      .sub-menu-white #main-menu .parent  .sub ,
+      .sub-menu-white #main-menu .parent:hover .sub {
         background: #f0f0f0;
     }
 
@@ -16144,7 +16144,7 @@ h2.portfolio-timeline-title {
     }
 
     #main-menu .navbar .nav > .parent.active > a,
-  #main-menu .navbar .nav > .parent.active:hover > a {
+      #main-menu .navbar .nav > .parent.active:hover > a {
         background: transparent;
     }
 
@@ -19103,7 +19103,7 @@ ul#flickr-sfeeds li a img {
     }
 
     .top-bar-section li,
-  .top-bar-section li:last-child {
+      .top-bar-section li:last-child {
         float: none;
         border: none;
         display: inline-block;
@@ -19118,7 +19118,7 @@ ul#flickr-sfeeds li a img {
     }
 
     .top-links li a:hover,
-  .top-bar.dark .top-links li a:hover {
+      .top-bar.dark .top-links li a:hover {
         background: none;
     }
 
@@ -23773,7 +23773,6 @@ input[type="reset"] {
     cursor: pointer;
     border-width: 1px;
     border-style: solid;
-    border-radius: 10px;
     text-decoration: none;
     outline: none;
     vertical-align: middle;
@@ -24845,10 +24844,11 @@ input[type="reset"] {
 form {
     padding: 0;
     z-index: 0;
-    width: 70%;
+    width: 75%;
     align-items: center;
     justify-content: center;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 form p {
@@ -26379,10 +26379,10 @@ input[type="search"],
 }
 
 .success {
-    clear: both;
     display: none;
     color: #96c346;
-    padding-top: 20px;
+    clear: both;
+    padding: 20px;
 }
 
 .lottie {
@@ -26788,6 +26788,45 @@ b {
         display: inline;
         letter-spacing: 3px;
         position: relative;
+    }
+}
+
+.button4 {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 24px;
+    background: #ffc95c;
+    font-family: Inter;
+    font-size: 90%;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    border: unset;
+    height: 3.5rem;
+    border-radius: 0 28px 28px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    justify-content: center;
+    line-height: 119%;
+    width: 25%;
+    color: #525c62;
+}
+
+@media screen and (max-width:574px) {
+    .button4 {
+        border-radius: 10px;
     }
 }
             }

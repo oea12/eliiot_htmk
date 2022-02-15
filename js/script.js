@@ -7,12 +7,12 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     listNav.classList.remove('pull-right');
 }
 
-function handleSubmitMail (event) {
+function handleSubmitMail2 (event) {
     event.preventDefault();
-    let email = document.getElementById('email');
-    console.log("email",email);
-    if (/@hotmail.com\s*$/.test(email.value.toLowerCase()) || /@gmail.com\s*$/.test(email.value.toLowerCase()) || /@outlook.com\s*$/.test(email.value.toLowerCase()) || /@yahoo.com\s*$/.test(email.value.toLowerCase())) {
-        let alertError = document.getElementById('mail_fail_email');
+    let email2 = document.getElementById('email2');
+    console.log("email se envia email",email2);
+      if (/@%%%%%.com\s*$/.test(email2.value.toLowerCase()) || /@%%%%%%.com\s*$/.test(email2.value.toLowerCase()) || /@%%%%%%%.com\s*$/.test(email2.value.toLowerCase()) || /@%%%%%%%%%.com\s*$/.test(email2.value.toLowerCase())) {
+        let alertError = document.getElementById('mail_fail_email2');
         alertError.style.display = "block";
         alertError.innerHTML = mensajeValidarMail;
         setTimeout(function () { alertError.style.display = "none"; }, 5000);
@@ -20,7 +20,7 @@ function handleSubmitMail (event) {
         let data = [
             {
                 "name": "email",
-                "value": email.value
+                "value": email2.value
             },
         ];
 
@@ -32,21 +32,67 @@ function handleSubmitMail (event) {
         $.ajax({
 
 
-          url: 'https://api.hsforms.com/submissions/v3/integration/submit/6719688/b60a7d63-ceeb-42e3-ae87-c81eefde43af',
-            type: 'post',
-            dataType: 'json',
-            contentType: 'application/json',
-            data: JSON.stringify(json_value),
-            success: function (response) {
-                document.getElementById('formEmail').reset();
-                let alertSucces = document.getElementById('mail_success_email');
-                alertSucces.style.display = "block";
-                setTimeout(function () { alertSucces.style.display = "none"; }, 5000);
+          url: 'https://api.hsforms.com/submissions/v3/integration/submit/21285867/bb3b3785-2876-4f87-a15c-0121c5ead0c6',
+          type: 'post',
+          dataType: 'json',
+          contentType: 'application/json',
+          data: JSON.stringify(json_value),
+          success: function (response) {
+              document.getElementById('contact_form2').reset();
+              let alertSucces = document.getElementById('mail_success_contact2');
+              alertSucces.style.display = "block";
+              setTimeout(function () { alertSucces.style.display = "none"; }, 5000);
+          },
+          error: function (response) {
+              let alertError = document.getElementById('mail_fail_contact2');
+              alertError.style.display = "block";
+              setTimeout(function () { alertError.style.display = "none"; }, 5000);
+            }
+        });
+    }
+
+}
+
+function handleSubmitMail3 (event) {
+    event.preventDefault();
+    let email3 = document.getElementById('email3');
+    console.log("email se envia email",email3);
+      if (/@%%%%%.com\s*$/.test(email3.value.toLowerCase()) || /@%%%%%%.com\s*$/.test(email3.value.toLowerCase()) || /@%%%%%%%.com\s*$/.test(email3.value.toLowerCase()) || /@%%%%%%%%%.com\s*$/.test(email3.value.toLowerCase())) {
+        let alertError = document.getElementById('mail_fail_email3');
+        alertError.style.display = "block";
+        alertError.innerHTML = mensajeValidarMail;
+        setTimeout(function () { alertError.style.display = "none"; }, 5000);
+    } else {
+        let data = [
+            {
+                "name": "email",
+                "value": email3.value
             },
-            error: function (response) {
-                let alertError = document.getElementById('mail_fail_email');
-                alertError.style.display = "block";
-                setTimeout(function () { alertError.style.display = "none"; }, 5000);
+        ];
+
+        let json_value = {
+            "fields": data,
+            "skipValidation": false
+        };
+
+        $.ajax({
+
+
+          url: 'https://api.hsforms.com/submissions/v3/integration/submit/21285867/bb3b3785-2876-4f87-a15c-0121c5ead0c6',
+          type: 'post',
+          dataType: 'json',
+          contentType: 'application/json',
+          data: JSON.stringify(json_value),
+          success: function (response) {
+              document.getElementById('contact_form3').reset();
+              let alertSucces = document.getElementById('mail_success_contact3');
+              alertSucces.style.display = "block";
+              setTimeout(function () { alertSucces.style.display = "none"; }, 5000);
+          },
+          error: function (response) {
+              let alertError = document.getElementById('mail_fail_contact3');
+              alertError.style.display = "block";
+              setTimeout(function () { alertError.style.display = "none"; }, 5000);
             }
         });
     }
@@ -64,7 +110,7 @@ function handleSubmitContact (event) {
 
 
     if (/@%%%%%.com\s*$/.test(correo.value.toLowerCase()) || /@%%%%%%.com\s*$/.test(correo.value.toLowerCase()) || /@%%%%%%%.com\s*$/.test(correo.value.toLowerCase()) || /@%%%%%%%%%.com\s*$/.test(correo.value.toLowerCase())) {
-        let alertError = document.getElementById('mail_fail_contact');
+        let alertError = document.getElementById('mail_fail_contact1');
         alertError.style.display = "block";
         alertError.innerHTML = mensajeValidarMail;
         setTimeout(function () { alertError.style.display = "none"; }, 5000);
@@ -96,13 +142,7 @@ function handleSubmitContact (event) {
         console.log("data", data);
 
         $.ajax({
-          //  https://share.hsforms.com/1puHRmaIhTqGpoK5NWPQh8g400y0
-            //url: 'https://api.hsforms.com/submissions/v3/integration/submit/6719688/c1411d6c-5c9f-4c20-a89f-a3d7531f06ba',
-            // https://share.hsforms.com/1E5ur7JcfRzy6ioNorO9_-Qco8a3     fa6a2479-c2cc-438f-8ae0-3264d0283024
-            // <!--[if lte IE 8]>
 
-//	portalId: "21285867",
-//	formId: "139babec-971f-473c-ba8a-8368acef7ff9"
 
             url: 'https://api.hsforms.com/submissions/v3/integration/submit/21285867/139babec-971f-473c-ba8a-8368acef7ff9',
             type: 'post',
@@ -111,12 +151,12 @@ function handleSubmitContact (event) {
             data: JSON.stringify(json_value),
             success: function (response) {
                 document.getElementById('contact_form').reset();
-                let alertSucces = document.getElementById('mail_success_contact');
+                let alertSucces = document.getElementById('mail_success_contact1');
                 alertSucces.style.display = "block";
                 setTimeout(function () { alertSucces.style.display = "none"; }, 5000);
             },
             error: function (response) {
-                let alertError = document.getElementById('mail_fail_contact');
+                let alertError = document.getElementById('mail_fail_contact1');
                 alertError.style.display = "block";
                 setTimeout(function () { alertError.style.display = "none"; }, 5000);
             }

@@ -56,7 +56,7 @@
                                 <a class="nav-link download-btn" href="https://eliiot.com/blog">Elliot blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link download-btn" href="#contact-area">Linea Eliiot</a>
+                                <a class="nav-link download-btn" target="_blank" href="https://registro.eliiot.com/">Linea Eliiot</a>
                             </li>
                         </ul>
                     </div>
@@ -85,16 +85,20 @@
         <section class="cta">
             <div class="title"> Diagnóstico Gratis  </div>
             <div class="cta">
-                <form action="https://eliiot.us1.list-manage.com/subscribe/post-json?u=fabd70ef5da2f266d30e78746&amp;id=8e709718b0&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="formnew validate">
-                    <input class="heycc2" type="email" name="EMAIL" id="mce-EMAIL1" placeholder="Ingresa tu mail" required="required">
-                    <input class="heycc2" type="email" name="EMAIL" id="mce-EMAIL2" placeholder="Ingresa el monto de la deuda" required="required">
-                    <input class="heycc2" type="email" name="EMAIL" id="mce-EMAIL3" placeholder="Ingresa la institución" required="required">
+                <form id="contact_form" class="formnew validate" onsubmit="handleSubmitContact(event)">
+                    <input class="heycc2" type="email" name="email" id="email" placeholder="Ingresa tu mail" required="required">
+                    <input class="heycc2" type="text" name="annualrevenue" id="annualrevenue" placeholder="Ingresa el monto de la deuda" required="required">
+                    <input class="heycc2" type="text" name="company" id="company" placeholder="Ingresa la institución bancaria" required="required">
                     <div aria-hidden="true" style="position: absolute; left: -5000px;">
                         <input type="text" name="b_fabd70ef5da2f266d30e78746_8e709718b0" tabindex="-1" value="">
                         <input type="text" name="b_fabd70ef5da2f266d30e78746_8e709718b0" tabindex="-1" value="">
                         <input type="text" name="tags" value="WEB B">
                     </div>
-                    <button type="submit" class="hero-btn ">Quiero saber más</button>
+                    <span id="mail_success_contact1" class="success">Tu información fue enviada exitosamente.</span>
+                    <span id="mail_fail_contact1" class="error">Ocurrio un error al enviar la información.</span>
+                    <div>
+                        <input type="submit" class="hero-btn " value="Aceptar">
+                    </div>
                 </form>
             </div>
         </section>
@@ -111,15 +115,6 @@
                         <br>Eliiot
                     </div>
                     <div class="onboarding-item-subtitle"> Habla con nosotros o deja tus datos para contactarte </div>
-                </div>
-                <div class="onboarding-item col-12 col-md-3">
-                    <div class="onboarding-item-icon">
-                        <img class="imgd" src="images/descarga_historial_icon.png">
-                    </div>
-                    <div class="onboarding-item-title"> Descarga
-                        <br>mi App
-                    </div>
-                    <div class="onboarding-item-subtitle"> Ya disponible en tu store para Android o iOS</div>
                 </div>
                 <div class="onboarding-item col-12 col-md-3">
                     <div class="onboarding-item-icon">
@@ -146,13 +141,17 @@
             <div class="subtitle"> Te explico sencillo, en tu idioma y sin spam. Suscríbete a nuestro newsletter para saber más.
 </div>
             <div class="cta">
-                <form action="https://eliiot.us1.list-manage.com/subscribe/post-json?u=fabd70ef5da2f266d30e78746&amp;id=8e709718b0&amp;c=?" method="get" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate">
-                    <input class="heycc" type="email" name="EMAIL" id="mce-EMAI2L" placeholder="Ingresa tu mail" required="required">
+                <form id="contact_form2" class="validate" onsubmit="handleSubmitMail2(event)">
+                    <input class="heycc" type="email" name="email2" id="email2" placeholder="Ingresa tu mail" required="required">
                     <div aria-hidden="true" style="position: absolute; left: -5000px;">
                         <input type="text" name="b_fabd70ef5da2f266d30e78746_8e709718b0" tabindex="-1" value="">
                         <input type="text" name="tags" value="WEB B">
                     </div>
-                    <button type="submit" class="button">Quiero saber más</button>
+                    <div>
+                        <input type="submit" class="button4" value="Suscribirme">
+                    </div>
+                    <span id="mail_success_contact2" class="success">Tu información fue enviada exitosamente.</span>
+                    <span id="mail_fail_contact2" class="error">Ocurrio un error al enviar la información.</span>
                 </form>
                 <div class="cta-message"></div>
             </div>
@@ -332,12 +331,17 @@
                 <br>Suscríbete a nuestro Newsletter para más novedades
             </div>
             <div class="cta">
-                <form action="https://eliiot.us1.list-manage.com/subscribe/post-json?u=fabd70ef5da2f266d30e78746&amp;id=8e709718b0&amp;c=?" method="get" id="mc-embedded-subscribe-form1" name="mc-embedded-subscribe-form" class="validate">
-                    <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Ingresa tu mail" required="required">
+                <form id="contact_form3" class="validate" onsubmit="handleSubmitMail3(event)">
+                    <input type="email" name="email3" id="email3" placeholder="Ingresa tu mail" required="required">
                     <div aria-hidden="true" style="position: absolute; left: -5000px;">
                         <input type="text" name="b_fabd70ef5da2f266d30e78746_8e709718b0" tabindex="-1" value="">
+                        <input type="text" name="tags" value="WEB B">
                     </div>
-                    <button type="submit" class="button">Quiero saber más</button>
+                    <div>
+                        <input type="submit" class="button4" value="Suscribirme" style="font-weight: 600;">
+                    </div>
+                    <span id="mail_success_contact" class="success">Tu información fue enviada exitosamente.</span>
+                    <span id="mail_fail_contact" class="error">Ocurrio un error al enviar la información.</span>
                 </form>
                 <div class="cta-message"></div>
             </div>
@@ -363,11 +367,11 @@
         <div data-v-3f27d708="" class="footer" id="footer">
             <div data-v-3f27d708="" class="contentfoot row" style="margin-bottom: 0px;">
                 <a href="index.html" data-v-3f27d708="" class="logo"> <img data-v-3f27d708="" src="images/logo_footer.png" width="101"> </a>
+                <div data-v-3f27d708="" class="blogButton">
+                    <a data-v-3f27d708="" target="_blank" href="https://registro.eliiot.com/" class="buttons_footer">Linea Eliiot</a>
+                </div>
                 <div data-v-3f27d708="" class="faqButton" target="_blank">
                     <a data-v-3f27d708="" href="FaqsPage.html" class="buttons_footer">Preguntas frecuentes</a>
-                </div>
-                <div data-v-3f27d708="" class="blogButton">
-                    <a data-v-3f27d708="" href="https://eliiot.com/blog" class="buttons_footer">Eliiot blog</a>
                 </div>
             </div>
             <div data-v-3f27d708="" class="contentfoot row">
@@ -426,6 +430,7 @@
  				  });
  			 </script>
         <script src="js/jquery.min.js"></script>         
+        <script src="js/script.js"></script>
         <script src="js/bootstrap.min.js"></script>         
         <script src="js/vendor/jquery-3.6.0.min.js"></script>
         <script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
