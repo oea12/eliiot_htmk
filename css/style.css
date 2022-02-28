@@ -11919,7 +11919,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #ffffff;
+    color: #1db4af;
     text-decoration: none;
     transition: all .3s ease 0s;
     cursor: pointer;
@@ -23660,6 +23660,7 @@ li > ol {
 ol li,
 ul li {
     margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
 .dtr-list {
@@ -26828,6 +26829,26 @@ b {
     .button4 {
         border-radius: 10px;
     }
+}
+
+.class {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 300;
+    color: #939393;
+    display: inline;
+    vertical-align: middle;
+}
+
+.class2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 27px;
+    color: #868585;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-indent: 26px;
 }
             }
         }
