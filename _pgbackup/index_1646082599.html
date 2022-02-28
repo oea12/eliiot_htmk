@@ -71,7 +71,7 @@
                     <h1 class="title_up"> Hola, soy Eliiot </h1>
                     <h1 class="title_down"> habla conmigo </h1>
                     <div class="subtitlehero"> Resuelve tu deuda con nosotros, te ayudamos con un plan a tu medida. </div>
-                    <a class="hero-btn" href="#correo"> CONTÁCTANOS </a>
+                    <a class="hero-btn" target="_blank" href="https://registro.eliiot.com/"> CONTÁCTANOS </a>
                 </div>
                 <div class="col-12 col-md-6 col2 image-container">
                     <div class="image">
@@ -85,16 +85,20 @@
         <section class="cta">
             <div class="title"> Diagnóstico Gratis  </div>
             <div class="cta">
-                <form onsubmit="handleSubmitContact(event)" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="formnew validate">
+                <form id="contact_form" class="formnew validate" onsubmit="handleSubmitContact(event)">
                     <input class="heycc2" type="email" name="email" id="email" placeholder="Ingresa tu mail" required="required">
                     <input class="heycc2" type="text" name="annualrevenue" id="annualrevenue" placeholder="Ingresa el monto de la deuda" required="required">
-                    <input class="heycc2" type="text" name="company" id="company" placeholder="Ingresa la institución" required="required">
+                    <input class="heycc2" type="text" name="company" id="company" placeholder="Ingresa la institución bancaria" required="required">
                     <div aria-hidden="true" style="position: absolute; left: -5000px;">
                         <input type="text" name="b_fabd70ef5da2f266d30e78746_8e709718b0" tabindex="-1" value="">
                         <input type="text" name="b_fabd70ef5da2f266d30e78746_8e709718b0" tabindex="-1" value="">
                         <input type="text" name="tags" value="WEB B">
                     </div>
-                    <button type="submit" class="hero-btn ">Quiero mi diagnóstico</button>
+                    <span id="mail_success_contact1" class="success">Tu información fue enviada exitosamente.</span>
+                    <span id="mail_fail_contact1" class="error">Ocurrio un error al enviar la información.</span>
+                    <div>
+                        <input type="submit" class="hero-btn " value="Aceptar">
+                    </div>
                 </form>
             </div>
         </section>
@@ -105,7 +109,7 @@
             <div class="onboarding row">
                 <div class="onboarding-item col-12 col-md-3">
                     <div class="onboarding-item-icon">
-                        <img class="imgd" src="images/descarga_app_icon.png">
+                        <img class="imgd" src="images/ok.svg">
                     </div>
                     <div class="onboarding-item-title"> Línea 
                         <br>Eliiot
@@ -114,7 +118,7 @@
                 </div>
                 <div class="onboarding-item col-12 col-md-3">
                     <div class="onboarding-item-icon">
-                        <img class="imgd" src="images/arma_tu_plan_icon.png">
+                        <img class="imgd" src="images/iconversacion.svg">
                     </div>
                     <div class="onboarding-item-title"> Escríbe
                         <br>a mi chat
@@ -123,7 +127,7 @@
                 </div>
                 <div class="onboarding-item col-12 col-md-3">
                     <div class="onboarding-item-icon">
-                        <img class="imgd" src="images/liberate_deudas_icon.png">
+                        <img class="imgd" src="images/icn-lupa.svg">
                     </div>
                     <div class="onboarding-item-title"> Suscríbete a
                         <br>mi Newsletter
@@ -137,13 +141,17 @@
             <div class="subtitle"> Te explico sencillo, en tu idioma y sin spam. Suscríbete a nuestro newsletter para saber más.
 </div>
             <div class="cta">
-                <form action="https://eliiot.us1.list-manage.com/subscribe/post-json?u=fabd70ef5da2f266d30e78746&amp;id=8e709718b0&amp;c=?" method="get" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate">
-                    <input class="heycc" type="email" name="EMAIL" id="mce-EMAI2L" placeholder="Ingresa tu mail" required="required">
+                <form id="contact_form2" class="validate" onsubmit="handleSubmitMail2(event)">
+                    <input class="heycc" type="email" name="email2" id="email2" placeholder="Ingresa tu mail" required="required">
                     <div aria-hidden="true" style="position: absolute; left: -5000px;">
                         <input type="text" name="b_fabd70ef5da2f266d30e78746_8e709718b0" tabindex="-1" value="">
                         <input type="text" name="tags" value="WEB B">
                     </div>
-                    <button type="submit" class="button">Suscribirme</button>
+                    <div>
+                        <input type="submit" class="button4" value="Suscribirme">
+                    </div>
+                    <span id="mail_success_contact2" class="success">Tu información fue enviada exitosamente.</span>
+                    <span id="mail_fail_contact2" class="error">Ocurrio un error al enviar la información.</span>
                 </form>
                 <div class="cta-message"></div>
             </div>
@@ -196,7 +204,7 @@
                         <br> 
                         <br> Creamos un plan a tu medida para ayudarte a tener esa tranquilidad financiera que tanto necesitas.
                     </div>
-                    <a class="hero-btn" href="#correo"> CONTÁCTANOS </a>
+                    <a class="hero-btn" target="_blank" href="https://registro.eliiot.com/"> CONTÁCTANOS </a>
                 </div>
             </div>
             <div class="known_dots">
@@ -323,12 +331,17 @@
                 <br>Suscríbete a nuestro Newsletter para más novedades
             </div>
             <div class="cta">
-                <form action="https://eliiot.us1.list-manage.com/subscribe/post-json?u=fabd70ef5da2f266d30e78746&amp;id=8e709718b0&amp;c=?" method="get" id="mc-embedded-subscribe-form1" name="mc-embedded-subscribe-form" class="validate">
-                    <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Ingresa tu mail" required="required">
+                <form id="contact_form3" class="validate" onsubmit="handleSubmitMail3(event)">
+                    <input type="email" name="email3" id="email3" placeholder="Ingresa tu mail" required="required">
                     <div aria-hidden="true" style="position: absolute; left: -5000px;">
                         <input type="text" name="b_fabd70ef5da2f266d30e78746_8e709718b0" tabindex="-1" value="">
+                        <input type="text" name="tags" value="WEB B">
                     </div>
-                    <button type="submit" class="button">Suscribirme</button>
+                    <div>
+                        <input type="submit" class="button4" value="Suscribirme" style="font-weight: 600;">
+                    </div>
+                    <span id="mail_success_contact3" class="success">Tu información fue enviada exitosamente.</span>
+                    <span id="mail_fail_contact3" class="error">Ocurrio un error al enviar la información.</span>
                 </form>
                 <div class="cta-message"></div>
             </div>
@@ -411,11 +424,11 @@
         <script samesite="None; Secure" src="https://static.landbot.io/landbot-3/landbot-3.0.0.js"></script>
         <script src="js/js.js" type='text/javascript'></script>
         <script src="js/lottie-player.js" type="text/javascript"></script>
-        <script>
+        <!--  <script>
   			 var myLandbot = new Landbot.Livechat({
    				 configUrl: 'https://chats.landbot.io/v3/H-916154-ATDO8NEMQ5DFHJRL/index.json',
  				  });
- 			 </script>
+ 			 </script>-->
         <script src="js/jquery.min.js"></script>         
         <script src="js/script.js"></script>
         <script src="js/bootstrap.min.js"></script>         
