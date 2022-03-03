@@ -32,7 +32,7 @@ function handleSubmitMail2 (event) {
         $.ajax({
 
 
-          url: 'https://api.hsforms.com/submissions/v3/integration/submit/215299637/6284ddbd-f2e0-48e0-9539-95a6d36032d4',
+          url: 'https://api.hsforms.com/submissions/v3/integration/submit/21529963/6284ddbd-f2e0-48e0-9539-95a6d36032d4',
           type: 'post',
           dataType: 'json',
           contentType: 'application/json',
