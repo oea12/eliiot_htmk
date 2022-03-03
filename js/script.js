@@ -32,7 +32,7 @@ function handleSubmitMail2 (event) {
         $.ajax({
 
 
-          url: 'https://api.hsforms.com/submissions/v3/integration/submit/21285867/bb3b3785-2876-4f87-a15c-0121c5ead0c6',
+          url: 'https://api.hsforms.com/submissions/v3/integration/submit/215299637/6284ddbd-f2e0-48e0-9539-95a6d36032d4',
           type: 'post',
           dataType: 'json',
           contentType: 'application/json',
@@ -78,7 +78,7 @@ function handleSubmitMail3 (event) {
         $.ajax({
 
 
-          url: 'https://api.hsforms.com/submissions/v3/integration/submit/21285867/bb3b3785-2876-4f87-a15c-0121c5ead0c6',
+          url: 'https://api.hsforms.com/submissions/v3/integration/submit/21529963/6284ddbd-f2e0-48e0-9539-95a6d36032d4',
           type: 'post',
           dataType: 'json',
           contentType: 'application/json',
@@ -144,7 +144,7 @@ function handleSubmitContact (event) {
         $.ajax({
 
 
-            url: 'https://api.hsforms.com/submissions/v3/integration/submit/21285867/139babec-971f-473c-ba8a-8368acef7ff9',
+            url: 'https://api.hsforms.com/submissions/v3/integration/submit/21529963/ba3a303e-fb8e-4d17-bbc4-6dcf0dbc5222',
             type: 'post',
             dataType: 'json',
             contentType: 'application/json',
