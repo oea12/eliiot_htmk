@@ -278,6 +278,7 @@ table {
 fieldset,
 img {
     border: 0;
+    margin-top: 32px;
 }
 
 input {
