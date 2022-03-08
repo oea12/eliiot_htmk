@@ -22315,9 +22315,10 @@ align-content: {
     min-height: 1px;
     display: inline;
     margin-right: 1rem;
-    max-height: 26rem;
-    margin-bottom: 2rem;
+    max-height: 42rem;
+    margin-bottom: 4rem;
     margin-left: 1rem;
+    min-width: 345px;
 }
 
 .herocontent {
@@ -26404,13 +26405,13 @@ input[type="search"],
     }
 
     .col-md-6 {
-        margin-top: -79px;
+        margin-top: -50px;
         margin-bottom: 3rem;
     }
 
     .image {
-        width: 18rem;
         display: block;
+        width: 19rem;
     }
 }
 
@@ -26716,7 +26717,7 @@ b {
 
 @media screen and (max-width:767px) {
     .image-container {
-        margin-top: 12rem;
+        margin-top: 4rem;
         margin-left: -1px;
         margin-right: 47px;
     }
@@ -26724,7 +26725,9 @@ b {
 
 @media screen and (max-width:479px) {
     .image-container {
-        margin-top: 19rem;
+        margin-top: 3rem;
+        height: 100%;
+        width: 90%;
     }
 }
 
@@ -26849,6 +26852,12 @@ b {
     font-weight: 300;
     letter-spacing: 0px;
     text-indent: 26px;
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    .image-container {
+        margin-top: 25px;
+    }
 }
             }
         }
