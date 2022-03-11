@@ -26859,6 +26859,11 @@ b {
         margin-top: 25px;
     }
 }
+
+.jdj {
+    position: static;
+    margin-bottom: 17px;
+}
             }
         }
         }
