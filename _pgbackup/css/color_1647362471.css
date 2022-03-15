@@ -292,7 +292,7 @@ input[type="submit"] {
 #submit:hover,
 input[type="submit"]:hover {
     background-color: #ffffff;
-    border-color: #3e4c62;
+    border-color: #11204d;
     color: #1cbcb2;
 }
 
@@ -310,7 +310,7 @@ input[type="password"],
 input[type="number"],
 input[type="tel"],
 input[type="search"] {
-    color: #3e4c62;
+    color: #11204d;
 }
 
 select,
@@ -323,7 +323,6 @@ input[type="number"],
 input[type="tel"],
 input[type="search"] {
     background-color: #fff;
-    color: #3e4c62;
 }
 
 select,
@@ -335,7 +334,7 @@ input[type="password"],
 input[type="number"],
 input[type="tel"],
 input[type="search"] {
-    border-color: #3e4c62;
+    border-color: rgba(88, 91, 101, 0.58);
 }
 
 textarea:focus,
@@ -346,7 +345,7 @@ input[type="password"]:focus,
 input[type="number"]:focus,
 input[type="tel"]:focus,
 input[type="search"]:focus {
-    border-color: #fec95d !important;
+    border-color: #6138bd !important;
 }
 
 .wpcf7-validation-errors {

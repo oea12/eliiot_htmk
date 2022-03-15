@@ -283,7 +283,7 @@ img {
 input {
     border: 1px solid #b0b0b0;
     padding: 3px 5px 4px;
-    color: #979797;
+    color: #373131;
 }
 
 address,
@@ -7759,14 +7759,16 @@ select,
 .login-select,
 .form-control {
     font-family: 'Inter', sans-serif;
-    border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #2a2b2f;
     background: transparent;
     color: #323336;
     font-size: 14px;
     margin: 0;
     outline: medium none;
     padding: 8px 20px 8px 0;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
 }
 
 select {
@@ -11917,10 +11919,11 @@ a {
 
 a:hover,
 a:focus {
-    color: #97999c;
+    color: #1db4af;
     text-decoration: none;
     transition: all .3s ease 0s;
     cursor: pointer;
+    background-color: #ffffff;
 }
 
 .a-dark {
@@ -19647,14 +19650,14 @@ header {
 }
 
 .navbar-brand {
-    padding: 8px 0;
     display: block;
+    padding: 0px 0;
 }
 
 .navbar > .container .navbar-brand,
 .navbar > .container-fluid .navbar-brand {
     margin-left: 0;
-    margin-top: -9px;
+    margin-top: 0px;
 }
 
 .navbar-brand > img {
@@ -19706,10 +19709,11 @@ header {
     padding-bottom: 0;
     margin-top: 0;
     margin-left: 72px;
-    background-color: #2b3747;
+    background-color: #ffffff;
     border-radius: 20px 20px 20px 4px;
     padding: 11.5px 24px;
-    color: #ffffff;
+    color: #1a8c9b;
+    border: 1px solid #000000;
 }
 
 /* ============= 3. SLIDER AREA ============= */
@@ -19770,7 +19774,6 @@ header {
     font-weight: 700;
     padding: 15px 50px;
     text-decoration: none;
-    text-transform: uppercase;
     transition: all 0.3s ease 0s;
     -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
@@ -21638,7 +21641,7 @@ align-content: {
     padding: 0 24px;
     background: #ffc95c;
     font-family: Inter;
-    font-size: 69%;
+    font-size: 90%;
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
@@ -21654,8 +21657,9 @@ align-content: {
     text-transform: uppercase;
     letter-spacing: 0px;
     justify-content: center;
-    line-height: 98%;
+    line-height: 119%;
     width: 25%;
+    color: #525c62;
 }
 
 .heycc {
@@ -22144,19 +22148,22 @@ align-content: {
 }
 
 .logo {
-    padding: 32px 0 32px 99px;
     cursor: pointer;
     display: inline-flex;
     width: 14rem;
     height: 100%;
     min-width: 10rem;
+    padding-top: 32px;
+    padding-left: 99px;
+    padding-bottom: 32px;
+    margin-right: 20px;
 }
 
 .faqButton {
-    padding: 32px 0 32px 91px;
+    padding: 32px 0 32px 40px;
     cursor: pointer;
     display: flex;
-    width: 19rem;
+    width: 17rem;
 }
 
 .buttons_footer {
@@ -22177,11 +22184,10 @@ align-content: {
 }
 
 .blogButton {
-    padding-left: 10px;
-    padding: 32px 0 32px 99px;
+    padding: 32px 0px 32px 40px;
     cursor: pointer;
     display: inline-flex;
-    width: 27rem;
+    width: 17rem;
 }
 
 .menu {
@@ -22310,9 +22316,10 @@ align-content: {
     min-height: 1px;
     display: inline;
     margin-right: 1rem;
-    max-height: 26rem;
-    margin-bottom: 2rem;
+    max-height: 42rem;
+    margin-bottom: 4rem;
     margin-left: 1rem;
+    min-width: 345px;
 }
 
 .herocontent {
@@ -22342,13 +22349,12 @@ align-content: {
 
 .imghero {
     bottom: 0;
-    margin-top: 9%;
+    margin-top: -34%;
     z-index: 1;
     vertical-align: middle;
     border-style: none;
-    max-width: 19rem;
-    float: right;
     object-fit: contain;
+    width: 100%;
 }
 
 .col2 {
@@ -23655,6 +23661,7 @@ li > ol {
 ol li,
 ul li {
     margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
 .dtr-list {
@@ -23768,14 +23775,10 @@ input[type="reset"] {
     cursor: pointer;
     border-width: 1px;
     border-style: solid;
-    border-radius: 10px;
     text-decoration: none;
     outline: none;
-    -webkit-backface-visibility: hidden;
     vertical-align: middle;
     text-align: center;
-    font-weight: normal;
-    font-weight: 500;
     font-size: 17px;
     line-height: 24px;
 }
@@ -24843,10 +24846,11 @@ input[type="reset"] {
 form {
     padding: 0;
     z-index: 0;
-    width: 70%;
+    width: 75%;
     align-items: center;
     justify-content: center;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 form p {
@@ -24883,7 +24887,7 @@ input[type="tel"],
 input[type="search"] {
     position: relative;
     display: block;
-    width: 71%;
+    width: 59%;
     padding: 15px 20px;
     margin: 0 3px 18px 0;
     border-width: 1px;
@@ -26357,16 +26361,25 @@ input[type="search"],
 }
 
 .image {
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
     position: relative;
     display: block;
     width: 100%;
     height: 100%;
-    margin: 50px auto 10px 0;
-    max-width: 415px;
-    float: right;
+    margin: 50px auto 10px;
+}
+
+.error {
+    clear: both;
+    display: none;
+    color: #e7505a;
+    padding-top: 20px;
+}
+
+.success {
+    display: none;
+    color: #96c346;
+    clear: both;
+    padding: 20px;
 }
 
 .lottie {
@@ -26382,17 +26395,15 @@ input[type="search"],
 
 @media screen and (max-width:575px) {
     .imghero {
-        width: 11rem;
         vertical-align: middle;
     }
 
     .col-md-6 {
-        margin-top: -79px;
+        margin-top: -50px;
         margin-bottom: 3rem;
     }
 
     .image {
-        width: 18rem;
         display: block;
     }
 }
@@ -26699,7 +26710,7 @@ b {
 
 @media screen and (max-width:767px) {
     .image-container {
-        margin-top: 12rem;
+        margin-top: 4rem;
         margin-left: -1px;
         margin-right: 47px;
     }
@@ -26707,7 +26718,9 @@ b {
 
 @media screen and (max-width:479px) {
     .image-container {
-        margin-top: 19rem;
+        margin-top: 3rem;
+        height: 100%;
+        width: 90%;
     }
 }
 
@@ -26723,6 +26736,126 @@ b {
     margin-bottom: 20px;
     padding-bottom: 43px;
     padding-top: 33px;
+}
+
+@media screen and (max-width:574px) {
+    form {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+
+    .validate {
+        align-content: center;
+        position: relative;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    select,
+    textarea,
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    input[type="password"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="search"] {
+        width: 90%;
+        border-radius: 26px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-content: center;
+        display: inline-flex;
+    }
+
+    .button {
+        width: 70%;
+        border-radius: 25px;
+        font-size: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-content: center;
+        display: inline;
+        letter-spacing: 3px;
+        position: relative;
+    }
+}
+
+.button4 {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 24px;
+    background: #ffc95c;
+    font-family: Inter;
+    font-size: 90%;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    border: unset;
+    height: 3.5rem;
+    border-radius: 0 28px 28px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    justify-content: center;
+    line-height: 119%;
+    width: 25%;
+    color: #525c62;
+}
+
+@media screen and (max-width:574px) {
+    .button4 {
+        border-radius: 10px;
+    }
+}
+
+.class {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 300;
+    color: #939393;
+    display: inline;
+    vertical-align: middle;
+}
+
+.class2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 27px;
+    color: #868585;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-indent: 26px;
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    .image-container {
+        margin-top: 25px;
+    }
+}
+
+.jdj {
+    position: static;
+    margin-bottom: 17px;
 }
             }
         }
