@@ -291,9 +291,9 @@ input[type="submit"] {
 .dtr-btn-flat:hover,
 #submit:hover,
 input[type="submit"]:hover {
-    background-color: #ffffff;
+    background-color: #5c7190;
     border-color: #11204d;
-    color: #1cbcb2;
+    color: #fff;
 }
 
 /* ---------------------------------------- */
