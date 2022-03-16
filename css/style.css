@@ -11919,11 +11919,11 @@ a {
 
 a:hover,
 a:focus {
-    color: #1db4af;
+    color: #ffffff;
     text-decoration: none;
     transition: all .3s ease 0s;
     cursor: pointer;
-    background-color: #ffffff;
+    background-color: rgba(43, 55, 71, 0);
 }
 
 .a-dark {
@@ -26968,6 +26968,10 @@ b {
         width: 100%;
         justify-content: center;
     }
+}
+
+.buttons_footer:hover {
+    background-color: #1cbcb2;
 }
             }
         }
