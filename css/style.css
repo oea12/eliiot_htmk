@@ -11919,11 +11919,11 @@ a {
 
 a:hover,
 a:focus {
-    color: #ffffff;
+    color: #fec95d;
     text-decoration: none;
     transition: all .3s ease 0s;
     cursor: pointer;
-    background-color: rgba(43, 55, 71, 0);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .a-dark {
@@ -26972,6 +26972,7 @@ b {
 
 .buttons_footer:hover {
     background-color: #1cbcb2;
+    color: #ffffff;
 }
             }
         }
